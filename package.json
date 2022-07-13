@@ -1,0 +1,8 @@
+{
+  "name": "initialize.css",
+  "version": "0.0.1",
+  "description": "CSS Initialize",
+  "main": "./dist/initialize.min.css",
+  "author": "mikufate",
+  "license": "MIT"
+}
