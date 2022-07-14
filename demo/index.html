@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Initialize CSS: UI Demo</title>
+  <link rel="stylesheet" href="../dist/initialize.min.css">
+</head>
+
+<body>
+  <dl>
+    <dt>内容分区</dt>
+    <dd>
+      <address>Address</address>
+    </dd>
+    <dd>
+      <article>Article</article>
+    </dd>
+    <dd>
+      <aside>Aside</aside>
+    </dd>
+    <dd>
+      <footer>Footer</footer>
+    </dd>
+    <dd>
+      <header>Header</header>
+    </dd>
+    <dd>
+      <h1>H1</h1>
+      <h2>H2</h2>
+      <h3>H3</h3>
+      <h4>H4</h4>
+      <h5>H5</h5>
+      <h6>H6</h6>
+    </dd>
+    <dd>
+      <main>Main</main>
+    </dd>
+    <dd>
+      <nav>Nav</nav>
+    </dd>
+    <dd>
+      <section>Section</section>
+    </dd>
+
+    <dt>文本内容</dt>
+    <dd>
+      <blockquote>Blockquote</blockquote>
+    </dd>
+    <dd>
+      dl
+      <dl>
+        <dt>dt</dt>
+        <dd>dd</dd>
+      </dl>
+    </dd>
+    <dd>
+      <div>div</div>
+    </dd>
+    <dd>
+      <figure>
+        figure
+        <figcaption>figcaption</figcaption>
+      </figure>
+    </dd>
+    <dd>hr
+      <hr>
+      </hr>
+    </dd>
+    <dd>
+      ol
+      <ol>
+        <li>li</li>
+      </ol>
+    </dd>
+    <dd>
+      <p>p</p>
+    </dd>
+    <dd>
+      <pre>pre</pre>
+    </dd>
+    <dd>
+      ul
+      <ul>
+        <li>li</li>
+      </ul>
+    </dd>
+
+    <dt>内联文本语义</dt>
+    <dd><a href="javascript:void 0">A</a></dd>
+    <dd><abbr>Abbr</abbr></dd>
+    <dd><b>B</b></dd>
+    <dd><bdi>Bdi</bdi></dd>
+    <dd><bdo>Bdo</bdo></dd>
+    <dd><br>Br</br></dd>
+    <dd><cite>Cite</cite></dd>
+    <dd><code>Code</code></dd>
+    <dd><data>Data</data></dd>
+    <dd><dfn>Dfn</dfn></dd>
+    <dd><em>Em</em></dd>
+    <dd><i>I</i></dd>
+    <dd><kbd>Kbd</kbd></dd>
+    <dd><mark>Mark</mark></dd>
+    <dd>
+      <ruby>
+        ruby<rt>Rt</rt>
+        <rp>Rp</rp>
+      </ruby>
+    </dd>
+    <dd><s>S</s></dd>
+    <dd><samp>Samp</samp></dd>
+    <dd><small>Small</small></dd>
+    <dd><strong>Strong</strong></dd>
+    <dd><sub>Sub</sub></dd>
+    <dd><sup>Sup</sup></dd>
+    <dd><time>Time</time></dd>
+    <dd><u>U</u></dd>
+    <dd><var>Var</var></dd>
+    <dd><wbr>Wbr</wbr></dd>
+
+    <dt>图片和多媒体</dt>
+    <dd>
+      <audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+      </audio>
+    </dd>
+    <dd>
+      <img class="fit-picture"
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
+        alt="Grapefruit slice atop a pile of other slices">
+    </dd>
+    <dd>
+      <video controls width="250">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+      </video>
+    </dd>
+
+    <dt>编辑标识</dt>
+    <dd><del>Del</del></dd>
+    <dd><ins>Ins</ins></dd>
+
+    <dt>表格内容</dt>
+    <dd>
+      <table>
+        <caption>Caption</caption>
+        <colgroup>
+          <col>
+          <col span="2" class="batman">
+          <col span="2" class="flash">
+        </colgroup>
+        <tr>
+          <td>Td</td>
+          <th scope="col">Batman</th>
+          <th scope="col">Robin</th>
+          <th scope="col">The Flash</th>
+          <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+          <th scope="row">Th</th>
+          <td>Smarts</td>
+          <td>Dex, acrobat</td>
+          <td>Super speed</td>
+          <td>Super speed</td>
+        </tr>
+      </table>
+    </dd>
+
+    <dt>表单</dt>
+    <dd>
+      <form>
+        <fieldset>
+          <legend>Input Type</legend>
+          <input type="text" id="text">
+          <label for="text">Text</label>
+          <br />
+
+          <input type="radio" id="radio">
+          <label for="radio">Radio</label>
+          <br />
+
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox">Checkbox</label>
+          <br>
+          <label for="avatar">Choose a profile picture:</label>
+          <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        </fieldset>
+        <label for="ice-cream-choice">Choose a flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+        <datalist id="ice-cream-flavors">
+          <option value="Chocolate">
+          <option value="Coconut">
+          <option value="Mint">
+          <option value="Strawberry">
+          <option value="Vanilla">
+        </datalist>
+        <br>
+        <label for="dino-select">Choose a dinosaur:</label>
+        <select id="dino-select">
+          <optgroup label="Theropods">
+            <option>Tyrannosaurus</option>
+            <option>Velociraptor</option>
+            <option>Deinonychus</option>
+          </optgroup>
+          <optgroup label="Sauropods">
+            <option>Diplodocus</option>
+            <option>Saltasaurus</option>
+            <option>Apatosaurus</option>
+          </optgroup>
+        </select>
+        <br />
+        <meter min="200" max="500" value="350">350 degrees</meter>
+        <br>
+        <input type="range" name="b" value="50" /> +
+        <input type="number" name="a" value="10" /> =
+        <output name="result"></output>
+        <br>
+        <label for="file">File progress:</label>
+        <progress id="file" max="100" value="70"> 70% </progress>
+        <br>
+        <label for="story">Tell us your story:</label>
+        <textarea id="story" name="story" rows="5" cols="33">
+        It was a dark and stormy night...
+        </textarea>
+        <br />
+        <button>Button</button>
+      </form>
+    </dd>
+
+    <dt>交互元素</dt>
+    <dd>
+      <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+      </details>
+    </dd>
+    <dd>
+      <dialog open>
+        <p>Greetings, one and all!</p>
+        <form method="dialog">
+          <button>OK</button>
+        </form>
+      </dialog>
+    </dd>
+  </dl>
+</body>
+
+</html>
