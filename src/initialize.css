@@ -45,11 +45,19 @@ ol {
   padding: 0; /* 5 */
 }
 
+/**
+* 6. Media element are block
+*/
+image,
+audio,
+video {
+  display: block;
+}
 
 /**
-* 6. Form element font inheritance
-* 7. Remove default outline
-* 8. Remove default margin
+* 7. Form element font inheritance
+* 8. Remove default outline
+* 9. Remove default margin
 */
 input,
 button,
@@ -61,8 +69,8 @@ select {
 }
 
 /**
-* 9. Remove default Border
-* 10. Remove default margin and padding
+* 10. Remove default Border
+* 11. Remove default margin and padding
 */
 fieldset,
 dialog {
@@ -72,7 +80,7 @@ dialog {
 }
 
 /**
-* 11. Remove default padding
+* 12. Remove default padding
 */
 legend {
   padding: 0; /* 11 */

@@ -31,6 +31,12 @@ ol {
   padding: 0;
 }
 
+image,
+audio,
+video {
+  display: block;
+}
+
 input,
 button,
 textarea,
